@@ -1,0 +1,17 @@
+<% @all_cats.each do |c| %>
+	<strong>Name: <%= c.name %></strong><br>
+    <br>        
+  <% end %>
+
+<% @all_todos.each do |t| %>
+	<strong>Tasks: <%= t.tasks %></strong><br>
+	<strong>Finished: <%= t.finished %></strong><br>
+    <br>        
+  <% end %>
+
+  <% @all_users.each do |u| %>
+	<strong>Username: <%= u.username %></strong><br>
+	<strong>Email: <%= u.email %></strong><br>
+	<strong>Age: <%= u.age %></strong><br>
+    <br>        
+  <% end %>
